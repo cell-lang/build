@@ -1,0 +1,5 @@
+sed "s/OBJ sort_F2(OBJ /OBJ sort_F2_(OBJ /" |\
+sed "s/OBJ source_file_location_F1(OBJ /OBJ source_file_location_F1_(OBJ /" |\
+sed "s/OBJ attach_F2(OBJ /OBJ attach_F2_(OBJ /" |\
+sed "s/OBJ fetch_F1(OBJ /OBJ fetch_F1_(OBJ /" |\
+sed "s/OBJ build_amber_file_ast_F3(OBJ /OBJ build_amber_file_ast_F3_(OBJ /"
